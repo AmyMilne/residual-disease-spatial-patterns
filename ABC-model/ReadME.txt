@@ -16,11 +16,11 @@ Download the following files and store in a destination folder.
     locationsCancer.csv
     valuesProliferationSignal.csv
 
-Download the following folders into the HAL-master folder. Specify the destination folder in the code.
+Download the following zipped files and unzip into the HAL-master folder. Specify the destination folder in the code.
 
-    growthABC
-    decayABC
-    validationABC
+    growthABC.zip
+    decayABC.zip
+    validationABC.zip
 
 Pipeline.
 
