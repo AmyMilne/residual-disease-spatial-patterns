@@ -2,6 +2,8 @@ ABC Model
 
 All python code is written in Python version 3.9.13.
 
+The model uses the HAL Java package available at https://halloworld.org/.
+
 Download the following files and store in a destination folder.
 
     ABC_priors_joint.py
@@ -14,7 +16,7 @@ Download the following files and store in a destination folder.
     locationsCancer.csv
     valuesProliferationSignal.csv
 
-Download the following folders and specify the destination folder in the code.
+Download the following folders into the HAL-master folder. Specify the destination folder in the code.
 
     growthABC
     decayABC
