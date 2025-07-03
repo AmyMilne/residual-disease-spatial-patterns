@@ -20,3 +20,6 @@ In the IntermittentTreatment.java class specify the input and output folders.
 
 IntermittentTreatment.java can now be run.
 
+Data collection needs to be turned on in the code. Please read the note regarding the space requirements.
+
+The initial conditions for domains with different vessel denisties can be accessed in vesselDensity.zip.
