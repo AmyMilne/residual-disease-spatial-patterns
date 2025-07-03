@@ -90,7 +90,7 @@ def bayesianTest(inputVector, testVector):
 tempDF_priors_joint = priorData_joint
 
 # import model output data
-tempDF_data_joint = pd.read_csv(inputFolder + 'cancerTimeSeries.csv')
+tempDF_data_joint = pd.read_csv(inputFolder + 'cancerTimeSeries_joint.csv')
 
 # create data collection array
 collectDataArray_joint = []
