@@ -1,9 +1,31 @@
 ABC Model
 
-ABC_model.py is written in Python version 3.9.13.
+All python code is written in Python version 3.9.13.
 
-In ABC_model.py specify the input and output folders.
+Download the following files and store in a destination folder.
 
-Place the file ExperimentalData.csv in the location of input folder. 
+    ABC_priors_joint.py
+    ABC_model_joint.py
+    ABC_priors_delta.py
+    ABC_model_delta.py
+    ExperimentalData.csv
+    vesselLocations.csv
+    cancerInitialCount.csv
+    locationsCancer.csv
+    valuesProliferationSignal.csv
 
-ABC_model.py can now be run.
+Download the following folders and specify the destination folder in the code.
+
+    growthABC
+    decayABC
+    validationABC
+
+Pipeline.
+
+    1. Run ABC_priors_joint.py. This creates a csv of the joint prior distribution for pNaught and beta.
+    2. Run growthABC/bayesianPNaughtBeta.java to create the data for the ABC model.
+    3. Run ABC_model_joint.py. This creates a csv of the posterior distribtion for pNaught and beta.
+    4. Run ABC_priors_delta.py. This creates a csv of the prior distribution for delta.
+    5. Run decayABC/bayesianDelta.java to create the data for the ABC model. Input calibrated values for pNaught and beta.
+    6. Run ABC_model_delta.py. This creates a csv of the posterior distribtion for delta.
+    7. Run validationABC/testRegrowth.java with calibrated values for pNaught, beta and delta for validation.
