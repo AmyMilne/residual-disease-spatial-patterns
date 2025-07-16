@@ -6,5 +6,6 @@ Parameters in the model are calibrated to in-vivo experimental data using the AB
 
 Animations are of sample realisation of the model for selected intermittent treatment schedules.
 
-![image](https://github.com/user-attachments/assets/8e6ddf47-a787-467f-a372-fc67d2bf059f)
+<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/1b8c8f61-b0ab-4ece-9cf8-01b5573dbac0" />
+
 
